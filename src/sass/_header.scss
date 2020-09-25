@@ -1,0 +1,58 @@
+.header{
+    width: 100%;
+    @include flexbox($placeItems: center, $placeContent: center, $direction: row);
+    background: $primary;
+}
+
+.home{
+    width: 30%;
+    padding: 10px;
+
+    h1{
+        @include fontSize(3rem);
+        line-height: 2rem;
+        font-family: $headingFont;
+    }
+
+    h1 a:hover,
+    h1 a:active {
+        text-shadow: $secondary 1px 1px 2px;
+        // text-shadow: $third 1px 1px 9px;
+    }
+}
+
+.navigation{
+    width: 55%;
+}
+
+.social-navigation{
+    width: 15%;
+}
+
+.navigation ul, .social-navigation ul{
+    @include flexbox($placeItems: center, $placeContent: space-around, $direction: row, $wrap: wrap);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    // border-radius: 10px;
+
+    :hover,
+    :active {
+        background: $secondary;
+    } 
+}
+
+.navigation ul li, .social-navigation ul li {
+    padding: 5px;
+}
+
+.navigation ul li a, .social-navigation ul li a{
+    @include fontSize(2rem);
+    line-height: 2rem;
+    font-family: $headingFont;
+
+    :hover,
+    :active {
+        text-shadow: $secondary 1px 1px 2px;
+    }
+}

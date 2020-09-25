@@ -1,0 +1,15 @@
+@import './sass/variables.scss';
+@import './sass/mixins.scss';
+@import './sass/basecss.scss';
+@import './sass/header.scss';
+@import './sass/chalkboardGallery.scss';
+
+body{
+    // background: #820000;
+    background: linear-gradient(to right, orangered, orange, gold);
+}
+
+h1{
+    @include fontSize(4rem);
+    font-family: $headingFont;
+}
