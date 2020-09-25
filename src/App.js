@@ -12,6 +12,7 @@ import Nsfwart from './Components/Nsfwart';
 import Route from './Components/Route';
 import Header from './Components/Header';
 
+// * * * * If having troubles 
 // https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
 
 export default () => {
