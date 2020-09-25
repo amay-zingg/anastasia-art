@@ -16,7 +16,7 @@ export default () => {
     return (
         <div>
             <Header />
-            <Route path="/">
+            <Route path="/home">
                 <img src={hero} alt="Hero"/>
             </Route>
             <Route path="/chalkboards">
