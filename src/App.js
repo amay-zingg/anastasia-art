@@ -12,11 +12,13 @@ import Nsfwart from './Components/Nsfwart';
 import Route from './Components/Route';
 import Header from './Components/Header';
 
+// https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
+
 export default () => {
     return (
         <div>
             <Header />
-            <Route path="/home">
+            <Route path={process.env.PUBLIC_URL + '/'}>
                 <img src={hero} alt="Hero"/>
             </Route>
             <Route path="/chalkboards">
