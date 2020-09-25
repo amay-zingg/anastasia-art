@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/anastasia-art/static/css/main.731505bb.chunk.css",
+    "main.js": "/anastasia-art/static/js/main.7cd1616b.chunk.js",
+    "main.js.map": "/anastasia-art/static/js/main.7cd1616b.chunk.js.map",
+    "runtime-main.js": "/anastasia-art/static/js/runtime-main.c86450f3.js",
+    "runtime-main.js.map": "/anastasia-art/static/js/runtime-main.c86450f3.js.map",
+    "static/js/2.f0473b49.chunk.js": "/anastasia-art/static/js/2.f0473b49.chunk.js",
+    "static/js/2.f0473b49.chunk.js.map": "/anastasia-art/static/js/2.f0473b49.chunk.js.map",
+    "index.html": "/anastasia-art/index.html",
+    "precache-manifest.4ac1295355ed0d0922ed5e256977db6f.js": "/anastasia-art/precache-manifest.4ac1295355ed0d0922ed5e256977db6f.js",
+    "service-worker.js": "/anastasia-art/service-worker.js",
+    "static/css/main.731505bb.chunk.css.map": "/anastasia-art/static/css/main.731505bb.chunk.css.map",
+    "static/js/2.f0473b49.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.f0473b49.chunk.js.LICENSE.txt",
+    "static/media/Hero.jpg": "/anastasia-art/static/media/Hero.a2819b15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c86450f3.js",
+    "static/js/2.f0473b49.chunk.js",
+    "static/css/main.731505bb.chunk.css",
+    "static/js/main.7cd1616b.chunk.js"
+  ]
+}
