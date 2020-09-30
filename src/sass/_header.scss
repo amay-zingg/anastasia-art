@@ -1,32 +1,31 @@
 .header{
     width: 100%;
-    @include flexbox($placeItems: center, $placeContent: center, $direction: row);
-    background: $primary;
+    @include flexbox($placeItems: center, $placeContent: center, $direction: column, $wrap: wrap);
+}
+
+.home,
+.navigation,
+.social-navigation{
+    width: 100%;
+    padding: 10px;
 }
 
 .home{
-    width: 30%;
-    padding: 10px;
+    // padding: 10px;
 
     h1{
-        @include fontSize(3rem);
+        @include fontSize(4rem);
         line-height: 2rem;
         font-family: $headingFont;
+        text-align: center;
+        margin: 0;
+        padding: .5em;
     }
 
     h1 a:hover,
     h1 a:active {
         text-shadow: $secondary 1px 1px 2px;
-        // text-shadow: $third 1px 1px 9px;
     }
-}
-
-.navigation{
-    width: 55%;
-}
-
-.social-navigation{
-    width: 15%;
 }
 
 .navigation ul, .social-navigation ul{
@@ -36,8 +35,8 @@
     padding: 0;
     // border-radius: 10px;
 
-    :hover,
-    :active {
+    ul:hover,
+    ul:active {
         background: $secondary;
     } 
 }
@@ -51,8 +50,8 @@
     line-height: 2rem;
     font-family: $headingFont;
 
-    :hover,
-    :active {
+    a:hover,
+    a:active {
         text-shadow: $secondary 1px 1px 2px;
     }
 }

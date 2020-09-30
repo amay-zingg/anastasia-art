@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    font-family: $bodyFont;
+    text-align: center;
+}
+
+/* * * * CHALKBOARD CONTAINER * * * */
+.card-container {
+    @include flexbox($placeItems: space-around, $placeContent: center, $direction: column, $wrap: wrap);
+    width: 100%;
+}
+
+.card{
+    width: 80%;
+    @include flexbox($placeItems: center, $direction: column, $wrap: wrap);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    min-width: 200px;
+    border-radius: 10px;
+    border: solid 2px $primary;
+    box-shadow: 2px 2px 2px $secondary;
+}
+
+.card p.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card p.description{
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* * * * CARICATURES * * * */
+
+// .caricature-card-container{
+//    @include flexbox($placeItems: space-around, $placeContent: center, $direction: column, $wrap: wrap);
+//     width: 100%;
+// }

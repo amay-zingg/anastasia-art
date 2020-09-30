@@ -4,7 +4,7 @@ const Chalkboard = ({ items }) => {
 
     const renderedItems = items.map((item, index) => {
         return(
-            <div className="chalkboard-card">
+            <div className="card">
                 <img src={item.image} alt={item.title} key={index} />
                 <p className="title">{item.title}</p>
                 <p className="description">{item.description}</p>
@@ -13,9 +13,9 @@ const Chalkboard = ({ items }) => {
     });
 
     return (
-        <div className="chalkboard-container">
+        <div className="container">
             <h1>Outer Layer Chalkboards</h1>
-            <div className="chalkboard-card-container">
+            <div className="card-container">
                 {renderedItems}
             </div>
         </div>

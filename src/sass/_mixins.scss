@@ -1,7 +1,7 @@
 @mixin fontSize($chosenSize) {
 	font-size: $chosenSize;
 	font-weight: 400;
-	line-height: $chosenSize * 1.5;
+	line-height: $chosenSize * 1;
 }
 
 /**
