@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/anastasia-art/static/css/main.d053ae2a.chunk.css",
-    "main.js": "/anastasia-art/static/js/main.4999a56c.chunk.js",
-    "main.js.map": "/anastasia-art/static/js/main.4999a56c.chunk.js.map",
+    "main.css": "/anastasia-art/static/css/main.e01bd394.chunk.css",
+    "main.js": "/anastasia-art/static/js/main.00aa8c8f.chunk.js",
+    "main.js.map": "/anastasia-art/static/js/main.00aa8c8f.chunk.js.map",
     "runtime-main.js": "/anastasia-art/static/js/runtime-main.c86450f3.js",
     "runtime-main.js.map": "/anastasia-art/static/js/runtime-main.c86450f3.js.map",
-    "static/js/2.f0473b49.chunk.js": "/anastasia-art/static/js/2.f0473b49.chunk.js",
-    "static/js/2.f0473b49.chunk.js.map": "/anastasia-art/static/js/2.f0473b49.chunk.js.map",
+    "static/js/2.e540f63a.chunk.js": "/anastasia-art/static/js/2.e540f63a.chunk.js",
+    "static/js/2.e540f63a.chunk.js.map": "/anastasia-art/static/js/2.e540f63a.chunk.js.map",
     "index.html": "/anastasia-art/index.html",
-    "precache-manifest.eaea58de504f9f9d6c87486c680875ad.js": "/anastasia-art/precache-manifest.eaea58de504f9f9d6c87486c680875ad.js",
+    "precache-manifest.56ca2fd04ca832430e0cb0f10d9be935.js": "/anastasia-art/precache-manifest.56ca2fd04ca832430e0cb0f10d9be935.js",
     "service-worker.js": "/anastasia-art/service-worker.js",
-    "static/css/main.d053ae2a.chunk.css.map": "/anastasia-art/static/css/main.d053ae2a.chunk.css.map",
-    "static/js/2.f0473b49.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.f0473b49.chunk.js.LICENSE.txt",
+    "static/css/main.e01bd394.chunk.css.map": "/anastasia-art/static/css/main.e01bd394.chunk.css.map",
+    "static/js/2.e540f63a.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.e540f63a.chunk.js.LICENSE.txt",
+    "static/media/2018deadicatedZombie.jpg": "/anastasia-art/static/media/2018deadicatedZombie.c40a460e.jpg",
+    "static/media/2019GetFucked.jpg": "/anastasia-art/static/media/2019GetFucked.83debea3.jpg",
+    "static/media/2020DingDongDickDock.jpg": "/anastasia-art/static/media/2020DingDongDickDock.7817e89a.jpg",
+    "static/media/2020TrainOfThought.jpg": "/anastasia-art/static/media/2020TrainOfThought.2c1a1944.jpg",
     "static/media/Hero.jpg": "/anastasia-art/static/media/Hero.a2819b15.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c86450f3.js",
-    "static/js/2.f0473b49.chunk.js",
-    "static/css/main.d053ae2a.chunk.css",
-    "static/js/main.4999a56c.chunk.js"
+    "static/js/2.e540f63a.chunk.js",
+    "static/css/main.e01bd394.chunk.css",
+    "static/js/main.00aa8c8f.chunk.js"
   ]
 }
