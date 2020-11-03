@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import hero from './assets/Hero.jpg';
+import hero from './assets/Hero.jpg'
 
 // import chalkboardArt from './imageLists/chalkboardList';
 

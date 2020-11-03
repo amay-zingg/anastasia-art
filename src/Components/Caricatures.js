@@ -5,7 +5,7 @@ const Caricatures = ({ items }) => {
     const renderedItems = items.map((item, index) => {
         return (
             <div className="card">
-                <img src={item.image} alt={item.title} key={item.index} />
+                <img src={item.image} alt={item.description} key={item.index} />
                 <p className="title">{item.title}</p>
                 <p className="description">{item.description}</p>
             </div>

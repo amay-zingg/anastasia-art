@@ -4,14 +4,13 @@
     text-align: center;
 }
 
-/* * * * CHALKBOARD CONTAINER * * * */
+/* * * * ART * * * */
 .card-container {
     @include flexbox($placeItems: space-around, $placeContent: center, $direction: column, $wrap: wrap);
     width: 100%;
 }
 
 .card{
-    width: 80%;
     @include flexbox($placeItems: center, $direction: column, $wrap: wrap);
     padding: 10px;
     margin-bottom: 10px;
@@ -40,4 +39,17 @@
 // .caricature-card-container{
 //    @include flexbox($placeItems: space-around, $placeContent: center, $direction: column, $wrap: wrap);
 //     width: 100%;
+// }
+
+/* * * * CARD LONG * * * */
+
+.card.long{
+    width: 100%;
+}
+
+// @media (max-width: 600px){
+//     .card.long{
+//         width: 400px;
+//         width: 100%;
+//     }
 // }
