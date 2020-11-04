@@ -1,8 +1,10 @@
 import React from 'react';
 import zombie from '../assets/done/2018deadicatedZombie.jpg';
+import zombie2 from '../assets/done/2018Deadicated-small.jpg';
 import dong from '../assets/done/2020DingDongDickDock.jpg';
 import train from '../assets/done/2020TrainOfThought.jpg';
 import finger from '../assets/done/2019GetFucked.jpg';
+import finger2 from '../assets/done/2019GetFucked-small.jpg';
 
 // const Nsfwart = ({ items }) => {
 
@@ -43,6 +45,14 @@ const Nsfwart = () => {
                 </div>
                 <div className="card long">
                     <img src={finger} alt="2019 Get Fucked"/>
+                </div>
+
+                {/* SHOW WHEN MOBILE SIZING */}
+                <div className="card mobile">
+                    <img src={zombie2} alt="018 Dead-icated to making you moan"/>
+                </div>
+                <div className="card mobile">
+                    <img src={finger2} alt="2019 Get Fucked"/>
                 </div>
             </div>
         </div>
