@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="home">
-                <h1><a href={'/'}>Anastasia May</a></h1>
+                <h1><a href={process.env.PUBLIC_URL + '/'}>Anastasia May</a></h1>
             </div>
             <div className="navigation">
                 <ul>

@@ -24,7 +24,8 @@ export default () => {
             <BrowserRouter>
                 <div>
                     <Header />
-                    <Route exact path={'/'}>
+                    {/* <Route exact path={'/'}> */}
+                    <Route exact path={process.env.PUBLIC_URL + '/'}>
                         <img src={hero} alt="Hero"/>
                     </Route>
                     <Route path="/chalkboards">
