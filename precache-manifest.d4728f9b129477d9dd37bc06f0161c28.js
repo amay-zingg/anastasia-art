@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83be4138159534062de6631a6b3d7f4e",
+    "revision": "00a1341c4d13d37cd95079fa510dbc84",
     "url": "/anastasia-art/index.html"
   },
   {
-    "revision": "1145251bb8d78b9c095b",
-    "url": "/anastasia-art/static/css/main.e01bd394.chunk.css"
+    "revision": "3174a9cc40a33e6ed345",
+    "url": "/anastasia-art/static/css/main.93b7de8e.chunk.css"
   },
   {
-    "revision": "d892b13dd28519fcb179",
-    "url": "/anastasia-art/static/js/2.e540f63a.chunk.js"
+    "revision": "29188c265c9c376cb5d1",
+    "url": "/anastasia-art/static/js/2.7155a536.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/anastasia-art/static/js/2.e540f63a.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/anastasia-art/static/js/2.7155a536.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1145251bb8d78b9c095b",
-    "url": "/anastasia-art/static/js/main.00aa8c8f.chunk.js"
+    "revision": "3174a9cc40a33e6ed345",
+    "url": "/anastasia-art/static/js/main.04770e33.chunk.js"
   },
   {
     "revision": "7f709618b08df1ee197a",
     "url": "/anastasia-art/static/js/runtime-main.c86450f3.js"
   },
   {
+    "revision": "b48e5aa078548de1948e5cd6121f7c94",
+    "url": "/anastasia-art/static/media/2018Deadicated-small.b48e5aa0.jpg"
+  },
+  {
     "revision": "c40a460ea702c2c8ca73933f07e5bbc2",
     "url": "/anastasia-art/static/media/2018deadicatedZombie.c40a460e.jpg"
+  },
+  {
+    "revision": "caac4ff57a97cd144f60188800ff44ec",
+    "url": "/anastasia-art/static/media/2019GetFucked-small.caac4ff5.jpg"
   },
   {
     "revision": "83debea34f6f6a2fd4e6f71e31298c90",

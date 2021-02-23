@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/anastasia-art/static/css/main.e01bd394.chunk.css",
-    "main.js": "/anastasia-art/static/js/main.00aa8c8f.chunk.js",
-    "main.js.map": "/anastasia-art/static/js/main.00aa8c8f.chunk.js.map",
+    "main.css": "/anastasia-art/static/css/main.93b7de8e.chunk.css",
+    "main.js": "/anastasia-art/static/js/main.04770e33.chunk.js",
+    "main.js.map": "/anastasia-art/static/js/main.04770e33.chunk.js.map",
     "runtime-main.js": "/anastasia-art/static/js/runtime-main.c86450f3.js",
     "runtime-main.js.map": "/anastasia-art/static/js/runtime-main.c86450f3.js.map",
-    "static/js/2.e540f63a.chunk.js": "/anastasia-art/static/js/2.e540f63a.chunk.js",
-    "static/js/2.e540f63a.chunk.js.map": "/anastasia-art/static/js/2.e540f63a.chunk.js.map",
+    "static/js/2.7155a536.chunk.js": "/anastasia-art/static/js/2.7155a536.chunk.js",
+    "static/js/2.7155a536.chunk.js.map": "/anastasia-art/static/js/2.7155a536.chunk.js.map",
     "index.html": "/anastasia-art/index.html",
-    "precache-manifest.56ca2fd04ca832430e0cb0f10d9be935.js": "/anastasia-art/precache-manifest.56ca2fd04ca832430e0cb0f10d9be935.js",
+    "precache-manifest.d4728f9b129477d9dd37bc06f0161c28.js": "/anastasia-art/precache-manifest.d4728f9b129477d9dd37bc06f0161c28.js",
     "service-worker.js": "/anastasia-art/service-worker.js",
-    "static/css/main.e01bd394.chunk.css.map": "/anastasia-art/static/css/main.e01bd394.chunk.css.map",
-    "static/js/2.e540f63a.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.e540f63a.chunk.js.LICENSE.txt",
+    "static/css/main.93b7de8e.chunk.css.map": "/anastasia-art/static/css/main.93b7de8e.chunk.css.map",
+    "static/js/2.7155a536.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.7155a536.chunk.js.LICENSE.txt",
+    "static/media/2018Deadicated-small.jpg": "/anastasia-art/static/media/2018Deadicated-small.b48e5aa0.jpg",
     "static/media/2018deadicatedZombie.jpg": "/anastasia-art/static/media/2018deadicatedZombie.c40a460e.jpg",
+    "static/media/2019GetFucked-small.jpg": "/anastasia-art/static/media/2019GetFucked-small.caac4ff5.jpg",
     "static/media/2019GetFucked.jpg": "/anastasia-art/static/media/2019GetFucked.83debea3.jpg",
     "static/media/2020DingDongDickDock.jpg": "/anastasia-art/static/media/2020DingDongDickDock.7817e89a.jpg",
     "static/media/2020TrainOfThought.jpg": "/anastasia-art/static/media/2020TrainOfThought.2c1a1944.jpg",
@@ -20,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c86450f3.js",
-    "static/js/2.e540f63a.chunk.js",
-    "static/css/main.e01bd394.chunk.css",
-    "static/js/main.00aa8c8f.chunk.js"
+    "static/js/2.7155a536.chunk.js",
+    "static/css/main.93b7de8e.chunk.css",
+    "static/js/main.04770e33.chunk.js"
   ]
 }
