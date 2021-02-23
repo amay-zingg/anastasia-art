@@ -25,7 +25,7 @@ export default () => {
                 <div>
                     <Header />
                     {/* <Route exact path={'/'}> */}
-                    <Route exact path={process.env.PUBLIC_URL + '/'}>
+                    <Route exact path={process.env.PUBLIC_URL + '/anastasia-art'}>
                         <img src={hero} alt="Hero"/>
                     </Route>
                     <Route path="/chalkboards">
