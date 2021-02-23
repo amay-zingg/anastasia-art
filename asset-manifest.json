@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/anastasia-art/static/css/main.93b7de8e.chunk.css",
-    "main.js": "/anastasia-art/static/js/main.04770e33.chunk.js",
-    "main.js.map": "/anastasia-art/static/js/main.04770e33.chunk.js.map",
+    "main.js": "/anastasia-art/static/js/main.6a4daebd.chunk.js",
+    "main.js.map": "/anastasia-art/static/js/main.6a4daebd.chunk.js.map",
     "runtime-main.js": "/anastasia-art/static/js/runtime-main.c86450f3.js",
     "runtime-main.js.map": "/anastasia-art/static/js/runtime-main.c86450f3.js.map",
     "static/js/2.7155a536.chunk.js": "/anastasia-art/static/js/2.7155a536.chunk.js",
     "static/js/2.7155a536.chunk.js.map": "/anastasia-art/static/js/2.7155a536.chunk.js.map",
     "index.html": "/anastasia-art/index.html",
-    "precache-manifest.d4728f9b129477d9dd37bc06f0161c28.js": "/anastasia-art/precache-manifest.d4728f9b129477d9dd37bc06f0161c28.js",
+    "precache-manifest.67cfe58384968b39435ff92026de6a61.js": "/anastasia-art/precache-manifest.67cfe58384968b39435ff92026de6a61.js",
     "service-worker.js": "/anastasia-art/service-worker.js",
     "static/css/main.93b7de8e.chunk.css.map": "/anastasia-art/static/css/main.93b7de8e.chunk.css.map",
     "static/js/2.7155a536.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.7155a536.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c86450f3.js",
     "static/js/2.7155a536.chunk.js",
     "static/css/main.93b7de8e.chunk.css",
-    "static/js/main.04770e33.chunk.js"
+    "static/js/main.6a4daebd.chunk.js"
   ]
 }
