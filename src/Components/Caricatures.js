@@ -2,9 +2,9 @@ import React from 'react';
 
 const Caricatures = ({ items }) => {
 
-    const renderedItems = items.map((item, index) => {
+    const renderedItems = items.map((item) => {
         return (
-            <div className="card">
+            <div className="card" key={item.title}>
                 <img src={item.image} alt={item.description} key={item.index} />
                 <p className="title">{item.title}</p>
                 <p className="description">{item.description}</p>
