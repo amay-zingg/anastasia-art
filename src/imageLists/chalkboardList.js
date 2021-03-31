@@ -1,13 +1,11 @@
-// import summer2 from '../assets/photos/chalkboard/2020-3-summer.jpg';
-
 const chalkboardArt = [
     {
-        image: 'http://localhost:3000/src/photos/chalkboards/2020-holiday-grinch.jpg',
+        image: 'https://i.imgur.com/7YKzaJF.jpg',
         title: '2020 Holiday',
         description: '2020 Holiday Grinch'
     },
     {
-        image: 'http://localhost:3000/src/photos/chalkboards/2020-3-summer.jpg',
+        image: 'https://i.imgur.com/NyNMl4f.jpg',
         title: '2020 Summer',
         description: 'Stay Happy and Healthy to the Core'
     }

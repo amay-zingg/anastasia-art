@@ -14,6 +14,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import chalkboardArt from './imageLists/chalkboardList';
 import caricatureArt from './imageLists/caricatureList';
+import paintingArt from './imageLists/paintingList';
+import costumes from './imageLists/costumeList';
+import nsfwArt from './imageLists/nsfwList';
+
 
 // * * * * If having troubles 
 // https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
@@ -35,13 +39,13 @@ export default () => {
                         <Caricatures items={caricatureArt} />
                     </Route>
                     <Route path="/paintings">
-                        <Paintings />
+                        <Paintings items={paintingArt}/>
                     </Route>
                     <Route path="/costumes">
-                        <Costumes />
+                        <Costumes items={costumes}/>
                     </Route>
                     <Route path="/nsfwart">
-                        <Nsfwart />
+                        <Nsfwart items={nsfwArt}/>
                     </Route>
                 </div>
             </BrowserRouter>
