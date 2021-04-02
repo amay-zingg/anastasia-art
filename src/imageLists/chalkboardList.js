@@ -1,6 +1,31 @@
 const chalkboardArt = [
     // 2015
     {
+        image: 'https://i.imgur.com/ASw6Uiz.jpg',
+        title: '2015 Rapping Paper',
+        description: 'Rapping Paper. Deck the Halls yo. Getting lit with 9 candles'
+    },
+    {
+        image: 'https://i.imgur.com/8QoHqwa.jpg',
+        title: '2015 Ha-PEE Holidays',
+        description: 'Ha-PEE Holidays. Your gift\'s in the litterbox.'
+    },
+    {
+        image: 'https://i.imgur.com/RulWXSy.jpg',
+        title: '2015 Boo! Scared Sheet-less!',
+        description: 'Boo! Scared Sheet-less!'
+    },
+    {
+        image: 'https://i.imgur.com/JoDmd5i.jpg',
+        title: '2015 Transaction with Satan',
+        description: 'I\'d sell you to Satan for one corn chip!'
+    },
+    {
+        image: 'https://i.imgur.com/Ww4lXaz.jpg',
+        title: '2015 Finally. T-Rex with Selfie Stick',
+        description: 'Finally. T-Rex with Selfie Stick'
+    },
+    {
         image: 'https://i.imgur.com/JoDzRjx.jpg',
         title: '2015 Do Nothing All Day',
         description: 'Today you\'re going to make a difference, or who knows maybe you won\'t, maybe you\'ll just do nothing all day'
