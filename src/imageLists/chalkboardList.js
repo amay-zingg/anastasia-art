@@ -1,13 +1,19 @@
 const chalkboardArt = [
+    // 2015
     {
-        image: 'https://i.imgur.com/7YKzaJF.jpg',
-        title: '2020 Holiday',
-        description: '2020 Holiday Grinch'
+        image: 'https://i.imgur.com/JoDzRjx.jpg',
+        title: '2015 Do Nothing All Day',
+        description: 'Today you\'re going to make a difference, or who knows maybe you won\'t, maybe you\'ll just do nothing all day'
     },
     {
-        image: 'https://i.imgur.com/NyNMl4f.jpg',
-        title: '2020 Summer',
-        description: 'Stay Happy and Healthy to the Core'
+        image: 'https://i.imgur.com/rOe6oKr.jpg',
+        title: '2015 Dad is Rare Steak',
+        description: 'Dad you\'re the rarest of them all!'
+    },
+    {
+        image: 'https://i.imgur.com/PPiFNUl.jpg',
+        title: '2015 T-Rex Trying To Paint the Chalkboard',
+        description: 'T-Rex Trying To Paint the Chalkboard'
     }
     // },
     // {
