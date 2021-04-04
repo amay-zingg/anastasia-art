@@ -8,6 +8,11 @@ const caricatureArt = [
         image: 'https://i.imgur.com/8QoHqwa.jpg',
         title: '2015 Ha-PEE Holidays',
         description: 'Ha-PEE Holidays. Your gift\'s in the litterbox.'
+    },
+     {
+        image: 'https://i.imgur.com/RulWXSy.jpg',
+        title: '2015 Boo! Scared Sheet-less!',
+        description: 'Boo! Scared Sheet-less!'
     }
     // {
     //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/elanasCats.jpg',
