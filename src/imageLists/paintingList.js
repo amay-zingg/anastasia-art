@@ -1,13 +1,13 @@
 const paintingArt = [
-    {
-        image: 'https://i.imgur.com/7YKzaJF.jpg',
-        title: '2020 Holiday',
-        description: '2020 Holiday Grinch'
+     {
+        image: 'https://i.imgur.com/ASw6Uiz.jpg',
+        title: '2015 Rapping Paper',
+        description: 'Rapping Paper. Deck the Halls yo. Getting lit with 9 candles'
     },
     {
-        image: 'https://i.imgur.com/NyNMl4f.jpg',
-        title: '2020 Summer',
-        description: 'Stay Happy and Healthy to the Core'
+        image: 'https://i.imgur.com/8QoHqwa.jpg',
+        title: '2015 Ha-PEE Holidays',
+        description: 'Ha-PEE Holidays. Your gift\'s in the litterbox.'
     }
 ];
 
