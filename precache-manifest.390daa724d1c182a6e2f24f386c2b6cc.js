@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07e108dc42495cdbf255c601bc99cf99",
+    "revision": "921e3c0bceb06b89669685c5e5b310ab",
     "url": "/anastasia-art/index.html"
   },
   {
-    "revision": "bda2243515a979795993",
+    "revision": "0ac957acaac86fc9e92a",
     "url": "/anastasia-art/static/css/main.93b7de8e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anastasia-art/static/js/2.fe51e4fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bda2243515a979795993",
-    "url": "/anastasia-art/static/js/main.31961267.chunk.js"
+    "revision": "0ac957acaac86fc9e92a",
+    "url": "/anastasia-art/static/js/main.11cbcd5b.chunk.js"
   },
   {
     "revision": "7f709618b08df1ee197a",
