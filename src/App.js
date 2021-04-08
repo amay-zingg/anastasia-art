@@ -24,13 +24,15 @@ import nsfwArt from './imageLists/nsfwList';
 
 export default () => {
     return (
-        <div>
+        <div className="wrapper">
             <BrowserRouter>
                 <div>
                     <Header />
                     {/* <Route exact path={'/'}> */}
                     <Route exact path={process.env.PUBLIC_URL + '/'}>
-                        <img src={hero} alt="Hero"/>
+                        <div className="hero-container">
+                            <img src={hero} alt="Hero"/>
+                        </div>
                     </Route>
                     <Route path="/chalkboards">
                         <Chalkboard items={chalkboardArt} />
@@ -49,6 +51,9 @@ export default () => {
                     </Route>
                 </div>
             </BrowserRouter>
+            <footer>
+                <p>© 2021 <a href="http://www.anastasiamay.com">Anastasia May</a></p>
+            </footer>
         </div>
     );
 };

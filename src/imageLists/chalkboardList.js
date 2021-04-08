@@ -1,4 +1,37 @@
 const chalkboardArt = [
+
+    // {
+    //     image: '',
+    //     title: '',
+    //     description: ''
+    // },
+
+    // 2016
+    {
+        image: 'https://i.imgur.com/8h4d94Z.jpg',
+        title: '2016 Pride',
+        description: 'Never Rupaulogize for who you are! Happy Pride!'
+    },
+    {
+        image: 'https://i.imgur.com/SJKx6Lw.jpg',
+        title: '2016 Darth Vader and Son',
+        description: 'Darth Vader and Son'
+    },
+    {
+        image: 'https://i.imgur.com/k9u3NVD.jpg',
+        title: '2016 Mother\'s Inspiration',
+        description: 'Your children should always be your inspiration even if it\'s just to drink more'
+    },
+    {
+        image: 'https://i.imgur.com/5QTraXQ.jpg',
+        title: '2016 Bob Ross',
+        description: 'We don\'t make mistakes, just happy accidents!'
+    },
+    {
+        image: 'https://i.imgur.com/V6fxLoX.jpg',
+        title: '2016 What Does Your Dentist Say?',
+        description: ' My doctor says I can\'t have sex for 3 weeks! What does your dentist say?'
+    },
     // 2015
     {
         image: 'https://i.imgur.com/ASw6Uiz.jpg',
