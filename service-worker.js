@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anastasia-art/precache-manifest.390daa724d1c182a6e2f24f386c2b6cc.js"
+  "/anastasia-art/precache-manifest.a75140982ece09c6f44088feba98eda9.js"
 );
 
 self.addEventListener('message', (event) => {
