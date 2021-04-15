@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/anastasia-art/static/css/main.5a394609.chunk.css",
-    "main.js": "/anastasia-art/static/js/main.bc2120af.chunk.js",
-    "main.js.map": "/anastasia-art/static/js/main.bc2120af.chunk.js.map",
+    "main.css": "/anastasia-art/static/css/main.b2d09a3b.chunk.css",
+    "main.js": "/anastasia-art/static/js/main.87b79f9f.chunk.js",
+    "main.js.map": "/anastasia-art/static/js/main.87b79f9f.chunk.js.map",
     "runtime-main.js": "/anastasia-art/static/js/runtime-main.c86450f3.js",
     "runtime-main.js.map": "/anastasia-art/static/js/runtime-main.c86450f3.js.map",
     "static/js/2.fe51e4fb.chunk.js": "/anastasia-art/static/js/2.fe51e4fb.chunk.js",
     "static/js/2.fe51e4fb.chunk.js.map": "/anastasia-art/static/js/2.fe51e4fb.chunk.js.map",
     "index.html": "/anastasia-art/index.html",
-    "precache-manifest.a75140982ece09c6f44088feba98eda9.js": "/anastasia-art/precache-manifest.a75140982ece09c6f44088feba98eda9.js",
+    "precache-manifest.b8b88d793a851d283df49fbad4590bfc.js": "/anastasia-art/precache-manifest.b8b88d793a851d283df49fbad4590bfc.js",
     "service-worker.js": "/anastasia-art/service-worker.js",
-    "static/css/main.5a394609.chunk.css.map": "/anastasia-art/static/css/main.5a394609.chunk.css.map",
+    "static/css/main.b2d09a3b.chunk.css.map": "/anastasia-art/static/css/main.b2d09a3b.chunk.css.map",
     "static/js/2.fe51e4fb.chunk.js.LICENSE.txt": "/anastasia-art/static/js/2.fe51e4fb.chunk.js.LICENSE.txt",
     "static/media/Hero.jpg": "/anastasia-art/static/media/Hero.a2819b15.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c86450f3.js",
     "static/js/2.fe51e4fb.chunk.js",
-    "static/css/main.5a394609.chunk.css",
-    "static/js/main.bc2120af.chunk.js"
+    "static/css/main.b2d09a3b.chunk.css",
+    "static/js/main.87b79f9f.chunk.js"
   ]
 }
