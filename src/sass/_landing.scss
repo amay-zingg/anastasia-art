@@ -1,0 +1,26 @@
+.hero-container {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+main {
+  padding: 1em;
+  @include flexbox(
+    $placeItems: center,
+    $placeContent: center,
+    $direction: column,
+    $wrap: wrap
+  );
+}
+
+h2.hello {
+  font-size: 3rem;
+  font-family: $headingFont;
+}
+
+p.artist-intro {
+  max-width: 500px;
+  font-size: 2rem;
+  text-align: center;
+}

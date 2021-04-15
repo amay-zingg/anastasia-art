@@ -18,6 +18,10 @@ import paintingArt from './imageLists/paintingList';
 import costumes from './imageLists/costumeList';
 import nsfwArt from './imageLists/nsfwList';
 
+// GSAP
+// import SimpleTween from "./simpleTween.js";
+// import artistIntro from './artistIntro.js';
+
 
 // * * * * If having troubles 
 // https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
@@ -33,6 +37,12 @@ export default () => {
                         <div className="hero-container">
                             <img src={hero} alt="Hero"/>
                         </div>
+                        <main>
+                            <h2 className="hello">Hello! <span className="waving">👋</span></h2>
+                            <p className="artist-intro">I work on character paintings a few times a year and have had my work in the Super Wonder Gallery several times. I create original caricatures in a few different cartoon art styles or my own. For 6 years I have done the chalk art outdoor sign at Outer Layer in Toronto. </p>
+                            {/* <artistIntro /> */}
+                            {/* <SimpleTween /> */}
+                        </main>
                     </Route>
                     <Route path="/chalkboards">
                         <Chalkboard items={chalkboardArt} />
