@@ -1,9 +1,19 @@
-footer{
-    // height: 5vh;
-    background-color: orange;
-    // color: white;
-    font-size: 2rem;
-    font-family: $headingFont;
-    text-align: center;
-    padding: 5px 0;
+footer {
+  background-color: orange;
+  font-size: 1.5rem;
+  font-family: $bodyFont;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer a {
+  // background-color: gold;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+footer a:hover,
+footer a:active {
+  background-color: orange;
+  box-shadow: maroon 1px 1px 10px;
 }

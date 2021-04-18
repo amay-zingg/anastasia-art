@@ -1,57 +1,88 @@
-.header{
-    width: 100%;
-    @include flexbox($placeItems: center, $placeContent: center, $direction: column, $wrap: wrap);
+.header {
+  width: 100%;
+  background: $primary;
+  @include flexbox(
+    $placeItems: center,
+    $placeContent: center,
+    $direction: column,
+    $wrap: wrap
+  );
 }
 
 .home,
 .navigation,
-.social-navigation{
-    width: 100%;
-    padding: 10px;
+.social-navigation {
+  width: 100%;
+  padding: 10px;
 }
 
-.home{
-    // padding: 10px;
+.home {
+  // padding: 10px;
 
-    h1{
-        @include fontSize(4rem);
-        line-height: 2rem;
-        font-family: $headingFont;
-        text-align: center;
-        margin: 0;
-        padding: .5em;
-    }
-
-    h1 a:hover,
-    h1 a:active {
-        text-shadow: $secondary 1px 1px 2px;
-    }
-}
-
-.navigation ul, .social-navigation ul{
-    @include flexbox($placeItems: center, $placeContent: space-around, $direction: row, $wrap: wrap);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    // border-radius: 10px;
-
-    ul:hover,
-    ul:active {
-        background: $secondary;
-    } 
-}
-
-.navigation ul li, .social-navigation ul li {
-    padding: 5px;
-}
-
-.navigation ul li a, .social-navigation ul li a{
-    @include fontSize(2rem);
+  h1 {
+    @include fontSize(4rem);
     line-height: 2rem;
     font-family: $headingFont;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+  }
+}
 
-    a:hover,
-    a:active {
-        text-shadow: $secondary 1px 1px 2px;
-    }
+.navigation ul,
+.social-navigation ul {
+  @include flexbox(
+    $placeItems: center,
+    $placeContent: space-around,
+    $direction: row,
+    $wrap: wrap
+  );
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  // border-radius: 10px;
+
+  ul:hover,
+  ul:active {
+    background: $secondary;
+  }
+}
+
+.navigation ul li,
+.social-navigation ul li {
+  padding: 5px;
+}
+
+.navigation ul li a,
+.social-navigation ul li a {
+  @include fontSize(2rem);
+  line-height: 2rem;
+  font-family: $headingFont;
+
+  a:hover,
+  a:active {
+    text-shadow: $secondary 1px 1px 2px;
+  }
+}
+
+// * * * * RESPONSIVE STYLES
+// 922px = 62em
+@media (min-width: 62em) {
+  .header {
+    width: 100%;
+    @include flexbox($direction: row, $wrap: wrap);
+    border-bottom: 2px solid $secondary;
+  }
+
+  .home {
+    width: 30%;
+  }
+
+  .navigation {
+    width: 50%;
+  }
+
+  .social-navigation {
+    width: 20%;
+  }
 }

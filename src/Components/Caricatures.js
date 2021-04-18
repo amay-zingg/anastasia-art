@@ -15,8 +15,10 @@ const Caricatures = ({ items }) => {
     return (
         <div className="container">
             <h1>Caricatures</h1>
-            <div className="card-container">
-                 {renderedItems}
+            <div className="gallery-container">
+                <div className="card-container">
+                    {renderedItems}
+                </div>
             </div>
         </div>
     );

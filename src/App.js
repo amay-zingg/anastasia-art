@@ -26,6 +26,20 @@ import caricatureArt from './imageLists/caricatureList';
 // * * * * If having troubles 
 // https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
 
+// function clickEmail() {
+// 	$("a[href^='mailto'").on('click', function(e) {
+// 		e.preventDefault();
+// 		window.location.href = this.attr('href').replace('myemail', 'gmail');
+// 	});
+// };
+
+function clickEmail(e) {
+    e.preventDefault();    
+    console.log('The link was clicked.');  
+    window.location.href = this.attr('href').replace('myemail', 'gmail');
+
+};
+
 export default () => {
     return (
         <div className="wrapper">
@@ -38,10 +52,16 @@ export default () => {
                             <img src={hero} alt="Hero"/>
                         </div>
                         <main>
-                            <h2 className="hello">Hello! <span className="waving">👋</span></h2>
-                            <p className="artist-intro">I work on character paintings a few times a year and have had my work in the Super Wonder Gallery several times. I create original caricatures in a few different cartoon art styles or my own. For 6 years I have done the chalk art outdoor sign at Outer Layer in Toronto. </p>
-                            {/* <artistIntro /> */}
-                            {/* <SimpleTween /> */}
+                            <div className="intro-box">
+                                <h2 className="hello">Heya I'm Anastasia! <span className="waving"><span role="img" aria-label="waving hand">👋</span>
+                                </span></h2>
+                                <p>I'm primarily a character painter and my artwork is silly and fun. Usually, my work consists of caricatures in different cartoon art styles. I've displayed work several times at the Super Wonder Gallery.  For over 6 years I have created chalk illustrations for Outer Layer's outdoor sign on Queen Street West in Toronto.  </p>
+                                <p>This is my progress on my artist site I'm currently building in React (for non developers, it's a modular structure that should make updating this art portfolio much easier!)</p>
+                                {/* <artistIntro /> */}
+                                {/* <SimpleTween /> */}
+                                <p class="email">Contact me at <a href="mailto:amayzinggdev@myemail.com" onClick={clickEmail}><span>moc.liamg[ta]vedggnizyama</span></a>
+                            </p>
+                            </div>
                         </main>
                     </Route>
                     <Route path="/chalkboards">

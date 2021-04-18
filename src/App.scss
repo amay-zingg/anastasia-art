@@ -6,14 +6,16 @@
 @import "./sass/gallery.scss";
 @import "./sass/footer.scss";
 
-body {
-  // background: #820000;
-  background: linear-gradient(to right, orangered, orange, gold);
-}
+/* * * * MOBILE FIRST STYLING * * * */
+/* * * * Done in em's because it looks best across all 4 browsers, em x 16 because browsers default sizing is 16px * * * */
+// 688px = 43em
+// @media (min-width: 43em) {
+// }
 
-h1 {
-  @include fontSize(3.5rem);
-  font-family: $headingFont;
-}
+// 922px = 62em
+// @media (min-width: 62em) {
+// }
 
-@import "./sass/responsive.scss";
+// 1312px = 82em
+// @media (min-width: 82em){
+// }

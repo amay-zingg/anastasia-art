@@ -232,3 +232,33 @@ a {
 .wrapper {
   width: 100vw;
 }
+
+// * * * * BASE
+
+body {
+  background: linear-gradient(to bottom, orange 30%, gold);
+}
+
+h1 {
+  @include fontSize(3.5rem);
+  font-family: $headingFont;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+a:active {
+  border-bottom: 2px solid $secondary;
+  text-shadow: $secondary 0 0 1px;
+}
+
+// * * * * RESPONSIVE STYLES
+// 688px = 43em
+@media (min-width: 43em) {
+  h1 {
+    font-size: 4.75rem;
+  }
+}

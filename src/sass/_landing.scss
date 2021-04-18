@@ -14,13 +14,24 @@ main {
   );
 }
 
+// * * * * INTRO BOX
+.intro-box {
+  max-width: 70%;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5em;
+  border-radius: 15px;
+  background-color: $primary;
+}
+
 h2.hello {
   font-size: 3rem;
   font-family: $headingFont;
 }
 
-p.artist-intro {
-  max-width: 500px;
-  font-size: 2rem;
-  text-align: center;
+a[href^="mailto"] {
+  span {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
 }

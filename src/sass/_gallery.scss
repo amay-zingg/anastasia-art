@@ -1,70 +1,75 @@
-.container{
-    width: 100%;
-    font-family: $bodyFont;
-    text-align: center;
+.container {
+  width: 100%;
+  font-family: $bodyFont;
+  text-align: center;
 }
 
 /* * * * ART * * * */
+.gallery-container {
+  @include flexbox(
+    $placeItems: space-around,
+    $placeContent: center,
+    $direction: column,
+    $wrap: wrap
+  );
+  width: 100%;
+}
+
 .card-container {
-    @include flexbox($placeItems: space-around, $placeContent: center, $direction: column, $wrap: wrap);
-    width: 100%;
+  @include flexbox(
+    $placeItems: space-around,
+    $placeContent: center,
+    $direction: column,
+    $wrap: wrap
+  );
+  width: 100%;
 }
 
-.card{
-    @include flexbox($placeItems: center, $direction: column, $wrap: wrap);
-    padding: 10px;
-    margin-bottom: 10px;
+.card {
+  @include flexbox($placeItems: center, $direction: column, $wrap: wrap);
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
 }
 
-.card img{
-    min-width: 200px;
-    border-radius: 10px;
-    border: solid 2px $primary;
-    box-shadow: 2px 2px 2px $secondary;
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px $primary;
+  box-shadow: 2px 2px 2px $secondary;
 }
 
-.card p.title{
+.card p.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card p.description {
+  font-size: 1.5rem;
+  color: maroon;
+  margin: 0;
+  padding: 0;
+}
+
+// * * * * RESPONSIVE STYLES
+// 688px = 43em
+@media (min-width: 43em) {
+  .card-container {
+    @include flexbox($direction: row, $wrap: wrap);
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .card p.title {
     font-size: 2rem;
-    font-weight: bold;
-}
-
-.card p.description{
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-}
-
-/* * * * CARICATURES * * * */
-
-// .caricature-card-container{
-//    @include flexbox($placeItems: space-around, $placeContent: center, $direction: column, $wrap: wrap);
-//     width: 100%;
-// }
-
-/* * * * CARD LONG * * * */
-
-.card.long{
-    width: 100%;
-}
-
-.card.mobile{
-      display: none;
-  }
-
-@media only screen 
-and (max-width : 500px) {   
-  .card.long{
-      display: none;
-  }
-
-  .card.mobile{
-      display: inline-block;
   }
 }
 
-// @media (max-width: 600px){
-//     .card.long{
-//         width: 400px;
-//         width: 100%;
-//     }
-// }
+// 922px = 62em
+@media (min-width: 62em) {
+  .card {
+    width: 30%;
+  }
+}
