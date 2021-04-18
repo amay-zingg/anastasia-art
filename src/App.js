@@ -4,9 +4,9 @@ import hero from './assets/Hero.jpg'
 
 import Chalkboard from './Components/Chalkboard';
 import Caricatures from './Components/Caricatures';
-import Costumes from './Components/Costumes';
-import Paintings from './Components/Paintings';
-import Nsfwart from './Components/Nsfwart';
+// import Costumes from './Components/Costumes';
+// import Paintings from './Components/Paintings';
+// import Nsfwart from './Components/Nsfwart';
 
 // import Route from './Components/Route';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -14,9 +14,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import chalkboardArt from './imageLists/chalkboardList';
 import caricatureArt from './imageLists/caricatureList';
-import paintingArt from './imageLists/paintingList';
-import costumes from './imageLists/costumeList';
-import nsfwArt from './imageLists/nsfwList';
+// import paintingArt from './imageLists/paintingList';
+// import costumes from './imageLists/costumeList';
+// import nsfwArt from './imageLists/nsfwList';
 
 // GSAP
 // import SimpleTween from "./simpleTween.js";
@@ -50,7 +50,7 @@ export default () => {
                     <Route path="/caricatures">
                         <Caricatures items={caricatureArt} />
                     </Route>
-                    <Route path="/paintings">
+                    {/* <Route path="/paintings">
                         <Paintings items={paintingArt}/>
                     </Route>
                     <Route path="/costumes">
@@ -58,7 +58,7 @@ export default () => {
                     </Route>
                     <Route path="/nsfwart">
                         <Nsfwart items={nsfwArt}/>
-                    </Route>
+                    </Route> */}
                 </div>
             </BrowserRouter>
             <footer>

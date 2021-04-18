@@ -15,7 +15,7 @@ const Header = () => {
                     <li>
                         <Link href="/caricatures">Caricatures</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href="/paintings">Paintings</Link>
                     </li>
                     <li>
@@ -23,7 +23,7 @@ const Header = () => {
                     </li>
                     <li>
                         <Link href="/nsfwart">NSFW Art</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div className="social-navigation">
