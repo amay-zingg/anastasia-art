@@ -16,7 +16,7 @@ main {
 
 // * * * * INTRO BOX
 .intro-box {
-  max-width: 70%;
+  max-width: 98%;
   font-size: 2rem;
   text-align: center;
   padding: 1.5em;
@@ -33,5 +33,13 @@ a[href^="mailto"] {
   span {
     direction: rtl;
     unicode-bidi: bidi-override;
+  }
+}
+
+// * * * * RESPONSIVE STYLES
+// 688px = 43em
+@media (min-width: 43em) {
+  .intro-box {
+    max-width: 70%;
   }
 }

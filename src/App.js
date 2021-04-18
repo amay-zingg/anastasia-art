@@ -26,16 +26,8 @@ import caricatureArt from './imageLists/caricatureList';
 // * * * * If having troubles 
 // https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
 
-// function clickEmail() {
-// 	$("a[href^='mailto'").on('click', function(e) {
-// 		e.preventDefault();
-// 		window.location.href = this.attr('href').replace('myemail', 'gmail');
-// 	});
-// };
-
 function clickEmail(e) {
-    e.preventDefault();    
-    console.log('The link was clicked.');  
+    e.preventDefault();
     window.location.href = this.attr('href').replace('myemail', 'gmail');
 
 };
@@ -49,7 +41,7 @@ export default () => {
                     {/* <Route exact path={'/'}> */}
                     <Route exact path={process.env.PUBLIC_URL + '/'}>
                         <div className="hero-container">
-                            <img src={hero} alt="Hero"/>
+                            <img src={hero} alt="Hero" />
                         </div>
                         <main>
                             <div className="intro-box">
@@ -60,7 +52,7 @@ export default () => {
                                 {/* <artistIntro /> */}
                                 {/* <SimpleTween /> */}
                                 <p class="email">Contact me at <a href="mailto:amayzinggdev@myemail.com" onClick={clickEmail}><span>moc.liamg[ta]vedggnizyama</span></a>
-                            </p>
+                                </p>
                             </div>
                         </main>
                     </Route>
