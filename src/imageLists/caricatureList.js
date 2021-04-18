@@ -1,99 +1,25 @@
 const caricatureArt = [
-     {
-        image: 'https://i.imgur.com/ASw6Uiz.jpg',
-        title: '2015 Rapping Paper',
-        description: 'Rapping Paper. Deck the Halls yo. Getting lit with 9 candles'
+    {
+        image: 'https://i.imgur.com/iofRJmg.jpg',
+        title: 'Bearded Princess Zelda',
+        description: 'My friend https://www.instagram.com/bearsailormoon/ as Princess Zelda',
+        style: 'caricature',
+        occasion: 'other'
     },
     {
-        image: 'https://i.imgur.com/8QoHqwa.jpg',
-        title: '2015 Ha-PEE Holidays',
-        description: 'Ha-PEE Holidays. Your gift\'s in the litterbox.'
+        image: '',
+        title: 'Commission portrait caricature for my cousin to gift to her husband',
+        description: 'Mouse & Raccoon name wordplay caricature',
+        style: 'caricature',
+        occasion: 'other'
     },
      {
-        image: 'https://i.imgur.com/RulWXSy.jpg',
-        title: '2015 Boo! Scared Sheet-less!',
-        description: 'Boo! Scared Sheet-less!'
+        image: 'https://i.imgur.com/VSB1ips.jpg',
+        title: 'https://www.youtube.com/watch?v=lv7bR2Ecv7Y Used to listen to Bill Burr\'s Podcast a lot and he talked about this moment once and I\'ll never forget it. He got to preform with these musicians for charity and I was so happy for him lol! I painted this for him in 2015 when I saw him preform in Toronto. I gave it to some staff that were at the stage to pass off to him. Who knows if he ever got it, but it was fun to paint this! https://musicfeeds.com.au/news/watch-slash-and-duff-reunite-to-jam-an-acdc-classic/',
+        description: '2015 Highway to Hell - Bill Burr playing drums w/ Slash, Franky Perez, Duff McKagan, & Dave Kushner',
+        style: 'fanart'
     }
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/elanasCats.jpg',
-    //     title: '2018 Meowtain of Trouble',
-    //     description: 'Elana\'s Cats'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/caityAndJer.jpg',
-    //     title: '2017 Robb A Mous',
-    //     description: 'Caity and Jeremy as a Mouse and Raccoon'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/cornell.jpg',
-    //     title: '2017 So Hold on Tightly My Dear Before we Disappear',
-    //     description: 'Chris Cornell Singing'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/billBurr.jpg',
-    //     title: '2015 Highway to Hell',
-    //     description: 'Bill Burr, Franky Perez, Slash, Duff McKegan, & Dave Krusner'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/revelation.jpg',
-    //     title: '2015 Revelation',
-    //     description: 'Noel Drawn in "Archer" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/natesAndBella.jpg',
-    //     title: '2015 Zoinks!',
-    //     description: 'Nathan & Bella Drawn in "Scooby Doo" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/natesDad.jpg',
-    //     title: '2015 James Latrobe',
-    //     description: '2015 Nathan\'s Dad James Drawn in "Pink Panther" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/lizPokemon.jpg',
-    //     title: '2015 Elizabeth',
-    //     description: '2015 Elizabeth Drawn in "Pokemon" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/jamesDrSuess.jpg',
-    //     title: '2015 James',
-    //     description: '2015 JAmes Drawn in "Dr. Seuss" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/danoAndLarissa.jpg',
-    //     title: '2015 Dano & Larissa',
-    //     description: '2015 Dano & Larissa Drawn in "Popeye" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/gregKAdventureTime.jpg',
-    //     title: '2015 Greg K',
-    //     description: '2015 Greg K Drawn in "Adventure Time" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/kaylaAndAna.jpg',
-    //     title: '2013 Calvin & Hobbes',
-    //     description: '2013 Kayla and Ana Drawn in "Calvin & Hobbes" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/reneeWallace.jpg',
-    //     title: '2015 Renee',
-    //     description: '2015 Renee drawn in "Wallace & Grommit" Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/lauraDesiree.jpg',
-    //     title: '2017 Laura',
-    //     description: '2017 Laura Desiree Drawn in my Style'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/pawsitivelyPoop.jpg',
-    //     title: '2017 Pawsitively Poop',
-    //     description: '2017 Pawsitively Poop Coffee Beans'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/caricatureWatermark/.jpg',
-    //     title: '',
-    //     description: ''
-    // }
+    
 ];
 
 export default caricatureArt;
