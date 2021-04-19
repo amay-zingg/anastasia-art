@@ -36,6 +36,17 @@ a[href^="mailto"] {
   }
 }
 
+p.email {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p.email:hover,
+p.email:active {
+  background: $black;
+  color: $primary;
+}
+
 // * * * * RESPONSIVE STYLES
 // 688px = 43em
 @media (min-width: 43em) {

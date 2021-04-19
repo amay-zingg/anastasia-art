@@ -51,7 +51,7 @@ export default () => {
                                 <p>This is my progress on my artist site I'm currently building in React (for non developers, it's a modular structure that should make updating this art portfolio much easier!)</p>
                                 {/* <artistIntro /> */}
                                 {/* <SimpleTween /> */}
-                                <p class="email">Contact me at <a href="mailto:amayzinggdev@myemail.com" onClick={clickEmail}><span>moc.liamg[ta]vedggnizyama</span></a>
+                                <p class="email">Contact me at <a href="mailto:amayzinggdev@gmail.com" onClick={clickEmail}><span>moc.liamg[ta]vedggnizyama</span></a>
                                 </p>
                             </div>
                         </main>
