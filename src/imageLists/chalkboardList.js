@@ -10,68 +10,94 @@ const chalkboardArt = [
     {
         image: 'https://i.imgur.com/8h4d94Z.jpg',
         title: '2016 Pride',
-        description: 'Never Rupaulogize for who you are! Happy Pride!'
+        description: 'Never Rupaulogize for who you are! Happy Pride!',
+        style: 'chalkboard',
+        occasion: 'pride'
     },
     {
         image: 'https://i.imgur.com/SJKx6Lw.jpg',
         title: '2016 Darth Vader and Son',
-        description: 'Darth Vader and Son'
+        description: 'Darth Vader and Son',
+        style: 'chalkboard',
+        occasion: 'fathersDay'
     },
     {
         image: 'https://i.imgur.com/k9u3NVD.jpg',
         title: '2016 Mother\'s Inspiration',
-        description: 'Your children should always be your inspiration even if it\'s just to drink more'
+        description: 'Your children should always be your inspiration even if it\'s just to drink more',
+        style: 'chalkboard',
+        occasion: 'mothersDay'
     },
     {
         image: 'https://i.imgur.com/5QTraXQ.jpg',
         title: '2016 Bob Ross',
-        description: 'We don\'t make mistakes, just happy accidents!'
+        description: 'We don\'t make mistakes, just happy accidents!',
+        style: 'chalkboard',
+        occasion: 'other'
     },
     {
         image: 'https://i.imgur.com/V6fxLoX.jpg',
         title: '2016 What Does Your Dentist Say?',
-        description: ' My doctor says I can\'t have sex for 3 weeks! What does your dentist say?'
+        description: ' My doctor says I can\'t have sex for 3 weeks! What does your dentist say?',
+        style: 'chalkboard',
+        occasion: 'valentine'
     },
     // 2015
     {
         image: 'https://i.imgur.com/ASw6Uiz.jpg',
         title: '2015 Rapping Paper',
-        description: 'Rapping Paper. Deck the Halls yo. Getting lit with 9 candles'
+        description: 'Rapping Paper. Deck the Halls yo. Getting lit with 9 candles',
+        style: 'chalkboard',
+        occasion: 'holiday'
     },
     {
         image: 'https://i.imgur.com/8QoHqwa.jpg',
         title: '2015 Ha-PEE Holidays',
-        description: 'Ha-PEE Holidays. Your gift\'s in the litterbox.'
+        description: 'Ha-PEE Holidays. Your gift\'s in the litterbox.',
+        style: 'chalkboard',
+        occasion: 'holiday'
     },
     {
         image: 'https://i.imgur.com/RulWXSy.jpg',
         title: '2015 Boo! Scared Sheet-less!',
-        description: 'Boo! Scared Sheet-less!'
+        description: 'Boo! Scared Sheet-less!',
+        style: 'chalkboard',
+        occasion: 'other'
     },
     {
         image: 'https://i.imgur.com/JoDmd5i.jpg',
         title: '2015 Transaction with Satan',
-        description: 'I\'d sell you to Satan for one corn chip!'
+        description: 'I\'d sell you to Satan for one corn chip!',
+        style: 'chalkboard',
+        occasion: 'other'
     },
     {
         image: 'https://i.imgur.com/Ww4lXaz.jpg',
         title: '2015 Finally. T-Rex with Selfie Stick',
-        description: 'Finally. T-Rex with Selfie Stick'
+        description: 'Finally. T-Rex with Selfie Stick',
+        style: 'chalkboard',
+        occasion: 'other'
     },
     {
         image: 'https://i.imgur.com/JoDzRjx.jpg',
         title: '2015 Do Nothing All Day',
-        description: 'Today you\'re going to make a difference, or who knows maybe you won\'t, maybe you\'ll just do nothing all day'
+        description: 'Today you\'re going to make a difference, or who knows maybe you won\'t, maybe you\'ll just do nothing all day',
+        style: 'chalkboard',
+        occasion: 'other'
     },
     {
         image: 'https://i.imgur.com/rOe6oKr.jpg',
         title: '2015 Dad is Rare Steak',
-        description: 'Dad you\'re the rarest of them all!'
+        description: 'Dad you\'re the rarest of them all!',
+        style: 'chalkboard',
+        occasion: 'fathersDay'
     },
     {
         image: 'https://i.imgur.com/PPiFNUl.jpg',
         title: '2015 T-Rex Trying To Paint the Chalkboard',
-        description: 'T-Rex Trying To Paint the Chalkboard'
+        description: 'T-Rex Trying To Paint the Chalkboard',
+        style: 'chalkboard',
+        occasion: 'other'
     }
     // },
     // {
