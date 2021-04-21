@@ -26,12 +26,6 @@ import caricatureArt from './imageLists/caricatureList';
 // * * * * If having troubles 
 // https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
 
-// function clickEmail(e) {
-//     e.preventDefault();
-//     window.location.href = this.attr('href').replace('myemail', 'gmail');
-
-// };
-
 export default () => {
     return (
         <div className="wrapper">
@@ -51,8 +45,8 @@ export default () => {
                                 <p>This is my progress on my artist site I'm currently building in React (for non developers, it's a modular structure that should make updating this art portfolio much easier!)</p>
                                 {/* <artistIntro /> */}
                                 {/* <SimpleTween /> */}
-                                <p class="email">Contact me at <a href="mailto:amayzinggdev@gmail.com"><span>moc.liamg[ta]vedggnizyama</span></a>
-                                {/* onClick={clickEmail} */}
+                                <p class="email">Contact me at: <a href="mailto:amayzinggdev@gmail.com"><span>moc.liamg[ta]vedggnizyama</span></a>
+                                
                                 </p>
                             </div>
                         </main>

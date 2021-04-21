@@ -2,7 +2,7 @@ import React from 'react';
 
 const Chalkboard = ({ items }) => {
 
-    const renderedItems = items.map((item, index) => {
+    const renderedItems = items.reverse().map((item, index) => {
         return(
             <div className="card" key={item.title}>
                 <img src={item.image} alt={item.description} key={item.index} />

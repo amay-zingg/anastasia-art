@@ -39,12 +39,23 @@ a[href^="mailto"] {
 p.email {
   padding: 10px;
   border-radius: 5px;
+  background: $secondary;
+  display: inline-block;
+  font-family: $headingFont;
+  color: $primary;
+  text-shadow: 0 1px 1px black;
 }
 
-p.email:hover,
-p.email:active {
-  background: black;
-  color: $primary;
+p.email a {
+  font-family: $bodyFont;
+  padding: 0 10px;
+  color: white;
+}
+
+p.email a:hover,
+p.email a:active {
+  color: black;
+  text-decoration: underline;
 }
 
 // * * * * RESPONSIVE STYLES

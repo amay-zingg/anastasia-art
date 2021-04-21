@@ -28,6 +28,11 @@ const Header = () => {
             </div>
             <div className="social-navigation">
                 <ul>
+                     <li>
+                        <a href="https://github.com/amay-zingg">
+                        <i className="fab fa-github"></i>
+                        <span className="visuallyhidden">Github (opens a new window)</span></a>
+                    </li>
                     <li>
                         <a href="https://www.linkedin.com/in/anastasiamayisamayzingg">
                         <i className="fab fa-linkedin-in"></i>
@@ -38,21 +43,16 @@ const Header = () => {
                         <i className="fab fa-twitter"></i>
                         <span className="visuallyhidden">Twitter (opens a new window)</span></a>
                     </li>
-                    <li>
-                        <a href="https://github.com/amay-zingg">
-                        <i className="fab fa-github"></i>
-                        <span className="visuallyhidden">Github (opens a new window)</span></a>
-                    </li>
-                    <li>
+                    {/* <li>
                         <a href="https://medium.com/@amay_zingg">
                         <i className="fab fa-medium"></i>
                         <span className="visuallyhidden">Medium (opens a new window)</span></a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                         <a href="https://www.instagram.com/paperhijinks/">
                         <i className="fab fa-instagram"></i>
                         <span className="visuallyhidden">Instagram (opens a new window)</span></a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>
