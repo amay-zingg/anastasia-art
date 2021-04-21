@@ -2,7 +2,7 @@ import React from 'react';
 
 const Caricatures = ({ items }) => {
 
-    const renderedItems = items.map((item) => {
+    const renderedItems = items.reverse().map((item) => {
         return (
             <div className="card" key={item.title}>
                 <img src={item.image} alt={item.title} key={item.index} />
