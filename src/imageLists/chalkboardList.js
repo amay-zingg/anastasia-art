@@ -93,13 +93,121 @@ const chalkboardArt = [
         occasion: 'pride'
     }
 
+     // {
+    //     image: '',
+    //     title: '2016 Summer was a Prick',
+    //     description: 'If You\'re Thrown Just Get Back on the Horse. Unless You Land on a Cactus, Then Roll Around and Scream'',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+     // {
+    //     image: '',
+    //     title: '2016 Simpson Summer',
+    //     description: 'My Greatest Talent is Watching 5 Years of TV in One Week. Homer Simpson lounges over a TV.',
+    //     style: 'chalkboard',
+    //     occasion: ''
+    // },
+
+     // {
+    //     image: '',
+    //     title: '2016 Fun Fall',
+    //     description: 'Whoever Determined a 1-inch Candy Should be Called Fun Sized Should Reevaluate Their Standards For Entertainment',
+    //     style: 'chalkboard',
+    //     occasion: ''
+    // },    
+      // {
+    //     image: '',
+    //     title: '2016 Holiday Balls',
+    //     description: 'You\'ve Got A Lot of Balls Coming In Here Dressed Like That. Says A Fir Tree to a Tree that has ornaments on it',
+    //     style: 'chalkboard',
+    //     occasion: 'holiday'
+    // },
+      // {
+    //     image: '',
+    //     title: '2016 Holiday to the Bone',
+    //     description: 'Best Of Luck This Holiday Season. Skeleton retail worker.',
+    //     style: 'chalkboard',
+    //     occasion: ''
+    // },
+
+    // 2017
+    // {
+    //     image: '',
+    //     title: '2017 Valentine\'s Day Raptor',
+    //     description: 'I\'m velociRAPT up in You',
+    //     style: 'chalkboard',
+    //     occasion: ''
+    // },
+       // {
+    //     image: '',
+    //     title: '2017 Spring',
+    //     description: 'My Bucket List is Short But My Fuck It List Keeps Growing & A Banana Peelin\' Out! on a skateboard',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+    //     image: '',
+    //     title: '2017 Mother\'s Day Hamster',
+    //     description: 'Thanks for not Eating Your Young Happy Mother\'s Day',
+    //     style: 'chalkboard',
+    //     occasion: 'mothersDay'
+    // },
+
+    //     image: '',
+    //     title: '2017 Father\'s Day Dogs',
+    //     description: 'Dad I Really Look Up To You. Golden Retriever puppy looking up to father dog',
+    //     style: 'chalkboard',
+    //     occasion: 'fathersDay'
+    // },
+
+    //     image: '',
+    //     title: '2017 Summer Fun',
+    //     description: 'Life Has It\'s Ups and Downs But You Can Always Bounce Back! Hedgehog on a trampoline',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+    //     image: '',
+    //     title: '2017 Summer',
+    //     description: 'You Are Face-Meltingly Awesome. Ice cream melting faces.',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+
+    //     image: '',
+    //     title: '2017 Summer',
+    //     description: 'Whatcha Gonna Dop With All That Hass? Avocado pattern.',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+
+
+    //     image: '',
+    //     title: '2017 Fall',
+    //     description: 'This Thanksgiving Cherish the Time Spent With Your Family as a Reminder of why you Moved Very Far Away From Your Family',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+
+
+    //     image: '',
+    //     title: '2017 Holiday Santaur Claus',
+    //     description: 'Santaur Claus is Comin\' to Town',
+    //     style: 'chalkboard',
+    //     occasion: 'holiday'
+    // },
+
 
     // * * * * THIS IS A DIVIDE
     // {
     //     image: '',
     //     title: '',
     //     description: '',
-    //     style: '',
+    //     style: 'chalkboard',
     //     occasion: ''
     // },
 
@@ -205,140 +313,8 @@ const chalkboardArt = [
     //     description: 'Happy Valentine\'s Day to a Hot Slice'
     // },
     // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017holiday.jpg',
-    //     title: '2017 Holiday',
-    //     description: 'Santaur Claus is Comin\' to Town'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017fall.jpg',
-    //     title: '2017 Fall',
-    //     description: 'This Thanksgiving Cherish the Time Spent With Your Family as a Reminder of why you Moved Very Far Away From Your Family'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017summer2.jpg',
-    //     title: '2017 Summer',
-    //     description: 'Whatcha Gonna Dop With All That Hass?'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017summer1.jpg',
-    //     title: '2017 Summer',
-    //     description: 'You Are Face-Meltingly Awesome'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017summer.jpg',
-    //     title: '2017 Summer',
-    //     description: 'Life Has It\'s Ups and Downs But You Can Always Bounce Back'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017dadday.jpg',
-    //     title: '2017 Father\'s Day ',
-    //     description: 'Dad I Really Look Up To You'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017momday.jpg',
-    //     title: '2017 Mother\'s Day',
-    //     description: 'Thanks for not Eating Your Young Happy Mother\'s Day'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017spring.jpg',
-    //     title: '2017 Spring',
-    //     description: 'My Bucket List is Short But My Fuck It List Keeps Growing, Peelin\' Out!'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2017vday.jpg',
-    //     title: '2017 Valentine\'s Day',
-    //     description: 'I\'m velociRAPT up in You'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016holiday2.jpg',
-    //     title: '2016 Holiday',
-    //     description: 'Best Of Luck This Holiday Season'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016holiday.jpg',
-    //     title: '2016 Holiday',
-    //     description: 'You\'ve Got A Lot of Balls Coming In Here Dressed Like That'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016fall.jpg',
-    //     title: '2016 Fall',
-    //     description: 'Whoever Determined a 1-inch Candy Should be Called Fun Sized Should Reevaluate Their Standards For Entertainment'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016summer1.jpg',
-    //     title: '2016 Summer',
-    //     description: 'My Greatest Talent is Watching 5 Years of TV in One Week'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016summer.jpg',
-    //     title: '2016 Summer',
-    //     description: 'If You\'re Thrown Just Get Back on the Horse. Unless You Land on a Cactus, Then Roll Around and Scream'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016pride.jpg',
-    //     title: '2016 Pride',
-    //     description: 'Never RuPaulogize For Who You Are, Stay Fierce'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016dadday.jpg',
-    //     title: '2016 Father\'s Day ',
-    //     description: 'Anakin Skywalker Gifts a Tie to Darth Vader, I Can\'t Wear This'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016momday.jpg',
-    //     title: '2016 Mother\'s Day',
-    //     description: 'Your Children Should Always be Your Inspiration, Even if it\'s Just To Drink More'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016bobross.jpg',
-    //     title: '2016 Spring',
-    //     description: 'We Don\'t Make Mistakes Just Happy Accidents, Have a Happy Little Day'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2016vday.jpg',
-    //     title: '2016 Valentine\'s Day',
-    //     description: 'My Doctor Says I Can\'t Have Sex For 3 Weeks, What Does Your Dentist Say?'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015holiday2.jpg',
-    //     title: '2015 Holiday',
-    //     description: 'Deck The Halls Yo, Gettin\' Lit With 9 Candles, Rapping Paper'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015holiday.jpg',
-    //     title: '2015 Holiday',
-    //     description: 'Your Gift\'s in the Litterbox, Ha-PEE Holidays'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015fall.jpg',
-    //     title: '2015 Fall',
-    //     description: 'BOO, Jesus Greg You Scared Me Sheetless'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015summer2.jpg',
-    //     title: '2015 Summer',
-    //     description: 'I\'d Sell You To Satan For One Cornchip'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015summer1.jpg',
-    //     title: '2015 Summer',
-    //     description: 'Trex With Selfie Stick'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015summer.jpg',
-    //     title: '2015 Summer',
-    //     description: 'Today You\'re Going to Make a Difference, or Who Knows, Maybe You Won\'t, Maybe You\'ll Just Do Nothing All Day'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015dadday.jpg',
-    //     title: '2015 Father\'s Day',
-    //     description: 'Well Done, Medium Well, Medium, Medium Rare, Dad, You\'re the Rarest of Them All'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2015spring.jpg',
-    //     title: '2015 Spring',
-    //     description: 'Trex With Paint Brush Trying to Paint the Chalkboard'
-    // }
+   
+   
 
 
 ];
