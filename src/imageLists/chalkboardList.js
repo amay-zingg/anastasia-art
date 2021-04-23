@@ -62,7 +62,7 @@ const chalkboardArt = [
         title: '2016 What Does Your Dentist Say?',
         description: ' My doctor says I can\'t have sex for 3 weeks! What does your dentist say?',
         style: 'chalkboard',
-        occasion: 'valentine'
+        occasion: 'vday'
     },
     {
         image: 'https://i.imgur.com/5QTraXQ.jpg',
@@ -106,7 +106,7 @@ const chalkboardArt = [
     //     title: '2016 Simpson Summer',
     //     description: 'My Greatest Talent is Watching 5 Years of TV in One Week. Homer Simpson lounges over a TV.',
     //     style: 'chalkboard',
-    //     occasion: ''
+    //     occasion: 'other'
     // },
 
      // {
@@ -114,7 +114,7 @@ const chalkboardArt = [
     //     title: '2016 Fun Fall',
     //     description: 'Whoever Determined a 1-inch Candy Should be Called Fun Sized Should Reevaluate Their Standards For Entertainment',
     //     style: 'chalkboard',
-    //     occasion: ''
+    //     occasion: 'other'
     // },    
       // {
     //     image: '',
@@ -128,7 +128,7 @@ const chalkboardArt = [
     //     title: '2016 Holiday to the Bone',
     //     description: 'Best Of Luck This Holiday Season. Skeleton retail worker.',
     //     style: 'chalkboard',
-    //     occasion: ''
+    //     occasion: 'holiday'
     // },
 
     // 2017
@@ -137,7 +137,7 @@ const chalkboardArt = [
     //     title: '2017 Valentine\'s Day Raptor',
     //     description: 'I\'m velociRAPT up in You',
     //     style: 'chalkboard',
-    //     occasion: ''
+    //     occasion: 'vday'
     // },
        // {
     //     image: '',
@@ -174,26 +174,18 @@ const chalkboardArt = [
     //     style: 'chalkboard',
     //     occasion: 'other'
     // },
-
-
     //     image: '',
     //     title: '2017 Summer',
     //     description: 'Whatcha Gonna Dop With All That Hass? Avocado pattern.',
     //     style: 'chalkboard',
     //     occasion: 'other'
     // },
-
-
-
     //     image: '',
     //     title: '2017 Fall',
     //     description: 'This Thanksgiving Cherish the Time Spent With Your Family as a Reminder of why you Moved Very Far Away From Your Family',
     //     style: 'chalkboard',
     //     occasion: 'other'
     // },
-
-
-
     //     image: '',
     //     title: '2017 Holiday Santaur Claus',
     //     description: 'Santaur Claus is Comin\' to Town',
@@ -201,6 +193,161 @@ const chalkboardArt = [
     //     occasion: 'holiday'
     // },
 
+    // * * * * 2018
+    // {
+    //     image: '',
+    //     title: '2018 Valentine\'s Day',
+    //     description: 'Happy Valentine\'s Day to a Hot Slice. Pizza Love.',
+    //     style: 'chalkboard',
+    //     occasion: 'vday'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Spring',
+    //     description: 'I\'m so old I can remember going through a whole day without taking a picture of anything',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Mother\'s Day',
+    //     description: 'I want a snack, I need to pee, are we there yet? Hey there Momma Bear, Happy Mother\'s Day. Mother Bear with two cubs on a walk.',
+    //     style: 'chalkboard',
+    //     occasion: 'mothersDay'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Father\'s Day ',
+    //     description: 'My Papa Rocks, To One Sweet Dad. Pop rocks candy',
+    //     style: 'chalkboard',
+    //     occasion: 'fathersDay'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Pride',
+    //     description: 'YASS Queen #pride2018',
+    //     style: 'chalkboard',
+    //     occasion: 'pride'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Summer',
+    //     description: 'Day Drinking From A Mug to Keep Things Professional',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Fall',
+    //     description: 'How Do I Turn These On? You\'re Killin\' Me Inside Kid. Librarian and child',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Winter',
+    //     description: 'Thank You For Voting us Toronto\'s Best Unique Gift Store',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+
+    // * * * * 2019
+    // {
+    //     image: '',
+    //     title: '2019 Valentine\'s Day',
+    //     description: 'You\'ve Got the Sweetest Can on the Street. Raccoons in some trash bins',
+    //     style: 'chalkboard',
+    //     occasion: 'vday'
+    // },
+
+    // {
+    //     image: '',
+    //     title: '2019 Spring',
+    //     description: 'You Can\'t Outrun Your Problems But You Can Jog Slightly Infront of Them and Pretend You Don\'t Hear Them Because You Have Your Headphones On',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2019 Mother\'s Day ',
+    //     description: 'Cersei Game Of Thrones | You\'re a Killer Mom',
+    //     style: 'chalkboard',
+    //     occasion: 'mothersDay'
+    // },
+    // {
+    //     image: '',
+    //     title: '2018 Father\'s Day',
+    //     description: 'For The Record You Rock Dad. Record player.',
+    //     style: 'chalkboard',
+    //     occasion: 'fathersDay'
+    // },
+    // {
+    //     image: '',
+    //     title: '2019 Summer',
+    //     description: 'Don\'t Follow the Rules, Follow Local Dogs Online',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2019 Summer',
+    //     description: 'Who Invited the Herbivore? I Brought Hummus',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2019 Fall',
+    //     description: 'Introvert Activites',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2019 Holiday',
+    //     description: 'What Cookies did you Leave Out for Santa? Have a Dope Holiday',
+    //     style: 'chalkboard',
+    //     occasion: 'holiday'
+    // },
+   
+    // * * * * 2020
+    // {
+    //     image: '',
+    //     title: '2020 Valentine\'s Day',
+    //     description: 'Our Love is Going to Simmer All Night Long. Crockpot romantic cooking.',
+    //     style: 'chalkboard',
+    //     occasion: 'vday'
+    // },
+    // {
+    //     image: '',
+    //     title: '2020 Spring',
+    //     description: 'Magic 8-Ball am I Stupid? Guy shakes a magic 8 ball for answers, but it\'s a bowling ball',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2020 Summer',
+    //     description: 'What\'s in Your Tarot?',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2020 Summer I Heart Guts',
+    //     description: 'Stay happy and healthy to the core',
+    //     style: 'chalkboard',
+    //     occasion: 'other'
+    // },
+    // {
+    //     image: '',
+    //     title: '2020 Holiday',
+    //     description: '2020 Stole Enough. The Grinch.',
+    //     style: 'chalkboard',
+    //     occasion: 'holiday'
+    // },
+
+    
 
     // * * * * THIS IS A DIVIDE
     // {
@@ -210,112 +357,7 @@ const chalkboardArt = [
     //     style: 'chalkboard',
     //     occasion: ''
     // },
-
     
-
-    
-    
-    
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2020summer.jpg',
-    //     title: '2020 Summer',
-    //     description: 'What\'s in Your Tarot?'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2020spring.jpg',
-    //     title: '2020 Spring',
-    //     description: 'Magic 8-Ball am I Stupid?'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2020vday.jpg',
-    //     title: '2020 Valentine\'s Day',
-    //     description: 'Our Love is Going to Simmer All Night Long'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019holiday.jpg',
-    //     title: '2019 Holiday',
-    //     description: 'What Cookies did you Leave Out for Santa? Have a Dope Holiday'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019fall.jpg',
-    //     title: '2019 Fall',
-    //     description: 'Introvert Activites'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019summer2.jpg',
-    //     title: '2019 Summer',
-    //     description: 'Who Invited the Herbivore? I Brought Hummus'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019summer.jpg',
-    //     title: '2019 Summer',
-    //     description: 'Don\'t Follow the Rules, Follow Local Dogs Online'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019dadday.jpg',
-    //     title: '2018 Father\'s Day',
-    //     description: 'For The Record You Rock Dad'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019momday.jpg',
-    //     title: '2019 Mother\'s Day ',
-    //     description: 'Cersei GoT | You\'re a Killer Mom'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019spring.jpg',
-    //     title: '2019 Spring',
-    //     description: 'You Can\'t Outrun Your Problems But You Can Jog Slightly Infront of Them and Pretend You Don\'t Hear Them Because You Have Your Headphones On'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2019vday.jpg',
-    //     title: '2019 Valentine\'s Day',
-    //     description: 'You\'ve Got the Sweetest Can on the Street'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018holiday.jpg',
-    //     title: '2018 Winter',
-    //     description: 'Thank You For Voting us Toronto\'s Best Unique Gift Store'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018fall.jpg',
-    //     title: '2018 Fall',
-    //     description: 'How Do I Turn These On? You\'re Killin\' Me Inside Kid'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018daydrinking.jpg',
-    //     title: '2018 Summer',
-    //     description: 'Day Drinking From A Mug to Keep Things Professional'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018pride.jpg',
-    //     title: '2018 Pride',
-    //     description: 'YASS Queen #pride2018'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018dadday.jpg',
-    //     title: '2018 Father\'s Day ',
-    //     description: 'My Papa Rocks, To One Sweet Dad'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018momday.jpg',
-    //     title: '2018 Mother\'s Day',
-    //     description: 'I want a snack, I need to pee, are we there yet? Hey there Momma Bear, Happy Mother\'s Day'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018spring.jpg',
-    //     title: '2018 Spring',
-    //     description: 'I\'m so old I can remember going through a whole day without taking a picture of anything'
-    // },
-    // {
-    //     image: 'https://www.anastasiamay.ca/assets/chalkboardWatermark/2018vday.jpg',
-    //     title: '2018 Valentine\'s Day',
-    //     description: 'Happy Valentine\'s Day to a Hot Slice'
-    // },
-    // {
-   
-   
-
 
 ];
 
