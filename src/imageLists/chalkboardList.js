@@ -91,45 +91,42 @@ const chalkboardArt = [
         description: 'Never Rupaulogize for who you are! Happy Pride!',
         style: 'chalkboard',
         occasion: 'pride'
-    }
-
-     // {
-    //     image: '',
-    //     title: '2016 Summer was a Prick',
-    //     description: 'If You\'re Thrown Just Get Back on the Horse. Unless You Land on a Cactus, Then Roll Around and Scream'',
-    //     style: 'chalkboard',
-    //     occasion: 'other'
-    // },
-
-     // {
-    //     image: '',
-    //     title: '2016 Simpson Summer',
-    //     description: 'My Greatest Talent is Watching 5 Years of TV in One Week. Homer Simpson lounges over a TV.',
-    //     style: 'chalkboard',
-    //     occasion: 'other'
-    // },
-
-     // {
-    //     image: '',
-    //     title: '2016 Fun Fall',
-    //     description: 'Whoever Determined a 1-inch Candy Should be Called Fun Sized Should Reevaluate Their Standards For Entertainment',
-    //     style: 'chalkboard',
-    //     occasion: 'other'
-    // },    
-      // {
-    //     image: '',
-    //     title: '2016 Holiday Balls',
-    //     description: 'You\'ve Got A Lot of Balls Coming In Here Dressed Like That. Says A Fir Tree to a Tree that has ornaments on it',
-    //     style: 'chalkboard',
-    //     occasion: 'holiday'
-    // },
-      // {
-    //     image: '',
-    //     title: '2016 Holiday to the Bone',
-    //     description: 'Best Of Luck This Holiday Season. Skeleton retail worker.',
-    //     style: 'chalkboard',
-    //     occasion: 'holiday'
-    // },
+    },
+    {
+        image: 'https://i.imgur.com/Crdv4Pt.jpg',
+        title: '2016 Summer was a Prick',
+        description: 'If You\'re Thrown Just Get Back on the Horse. Unless You Land on a Cactus, Then Roll Around and Scream',
+        style: 'chalkboard',
+        occasion: 'other'
+    },
+    {
+        image: 'https://i.imgur.com/VIFz35f.jpg',
+        title: '2016 Greatest Talent',
+        description: 'My Greatest Talent is Watching 5 Years of TV in One Week. Homer Simpson lounges over a TV.',
+        style: 'chalkboard',
+        occasion: 'other'
+    },
+    {
+        image: 'https://i.imgur.com/xW2NIcu.jpg',
+        title: '2016 Fun Fall',
+        description: 'Whoever Determined a 1-inch Candy Should be Called Fun Sized Should Reevaluate Their Standards For Entertainment',
+        style: 'chalkboard',
+        occasion: 'other'
+    },    
+    {
+        image: 'https://i.imgur.com/xS8kWmi.jpg',
+        title: '2016 Holiday Balls',
+        description: 'You\'ve Got A Lot of Balls Coming In Here Dressed Like That. Says A Fir Tree to a Tree that has ornaments on it',
+        style: 'chalkboard',
+        occasion: 'holiday'
+    },
+    {
+        image: 'https://i.imgur.com/9as57AF.jpg',
+        title: '2016 Holiday to the Bone',
+        description: 'Best Of Luck This Holiday Season. Skeleton retail worker.',
+        style: 'chalkboard',
+        occasion: 'holiday'
+    },
 
     // 2017
     // {

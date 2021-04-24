@@ -5,7 +5,7 @@ const Chalkboard = ({ items }) => {
     const renderedItems = items.reverse().map((item, index) => {
         return(
             <div className="card" key={item.title}>
-                <img src={item.image} alt={item.description} key={item.index} />
+                <img src={item.image} alt={item.title} key={item.index} />
                 <p className="title">{item.title}</p>
                 <p className="description">{item.description}</p>
             </div>
