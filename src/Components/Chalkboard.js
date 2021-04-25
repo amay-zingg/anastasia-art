@@ -16,6 +16,7 @@ const Chalkboard = ({ items }) => {
         <div className="container">
             <h1>Outer Layer Chalkboards</h1>
             <div className="card-container">
+                <select name="choose" id="whichStyle"></select>
                 {renderedItems}
             </div>
         </div>
